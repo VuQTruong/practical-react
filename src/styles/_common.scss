@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.panel {
+  background-color: $clr-primary;
+  margin-top: 1em;
+  padding: 2em;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border: 2px solid $clr-secondary;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: $clr-green;
+}
+
+.btn-primary--red {
+  background-color: $clr-red;
+}
+
+.btn-primary--orange {
+  background-color: $clr-orange;
+}
+
+.btn-primary--yellow {
+  background-color: $clr-yellow;
+}
+
+.btn-primary--blue {
+  background-color: $clr-blue;
+}
+
+.btn-primary--indigo {
+  background-color: $clr-indigo;
+}
+
+.btn-primary--purple {
+  background-color: $clr-purple;
+}
+
+.btn-danger {
+  background-color: $clr-danger;
+}
+
+/* Social buttons */
+.btn-social {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5em;
+
+  i {
+    font-size: $fs-24;
+    margin-right: 0.25em;
+  }
+}
+
+.btn-social--google {
+  background-color: $clr-google;
+}
+
+.btn-social--facebook {
+  background-color: $clr-facebook;
+}

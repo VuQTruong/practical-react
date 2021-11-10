@@ -1,0 +1,16 @@
+.form__title {
+  text-align: center;
+  margin: 0 0 0.5em;
+}
+
+.form__control {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+}
