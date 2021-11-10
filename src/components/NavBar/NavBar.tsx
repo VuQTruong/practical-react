@@ -13,7 +13,7 @@ export default function NavBar() {
         Formik with Hook
       </Link>
       <Link to='/formikelement' className='btn btn-primary btn-primary--orange navbar__btn'>
-        Formik with Element
+        Formik with Components
       </Link>
     </div>
   );
