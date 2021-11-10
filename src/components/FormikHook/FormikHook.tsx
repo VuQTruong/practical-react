@@ -91,10 +91,7 @@ export default function FormikHook() {
             <input
               type='password'
               id='password'
-              name='password'
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              value={formik.values.password}
+              {...formik.getFieldProps('password')}
             />
             {formik.touched.password && formik.errors.password && (
               <p className='form__error'>{formik.errors.password}</p>
