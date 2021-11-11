@@ -10,10 +10,10 @@ export default function NavBar() {
         Pure Form
       </Link>
       <Link to='/formikhook' className='btn btn-primary btn-primary--purple navbar__btn'>
-        Formik with Hook
+        Formik Hook
       </Link>
       <Link to='/formikelement' className='btn btn-primary btn-primary--orange navbar__btn'>
-        Formik with Components
+        Formik Components
       </Link>
     </div>
   );

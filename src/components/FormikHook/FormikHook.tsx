@@ -54,7 +54,7 @@ export default function FormikHook() {
     <div className='container'>
       <NavBar />
       <div className='panel'>
-        <h2 className='form__title'>FORMIK USING HOOK</h2>
+        <h2 className='form__title'>FORMIK HOOK</h2>
         <form onSubmit={formik.handleSubmit}>
           <div className='form__control'>
             <label htmlFor='name'>Name</label>
@@ -88,11 +88,7 @@ export default function FormikHook() {
 
           <div className='form__control'>
             <label htmlFor='password'>Password</label>
-            <input
-              type='password'
-              id='password'
-              {...formik.getFieldProps('password')}
-            />
+            <input type='password' id='password' {...formik.getFieldProps('password')} />
             {formik.touched.password && formik.errors.password && (
               <p className='form__error'>{formik.errors.password}</p>
             )}

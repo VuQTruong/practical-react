@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .panel {
@@ -18,6 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mt-1 {
+  margin-top: 1em;
 }
 
 /* Buttons */
@@ -64,6 +68,18 @@
 
 .btn-primary--purple {
   background-color: $clr-purple;
+}
+
+.btn-secondary {
+  margin: 0 0.5em;
+  padding: 0.125em 0.375em;
+  background-color: $clr-secondary;
+}
+
+.btn-disable {
+  background-color: grey;
+  color: black;
+  cursor: initial;
 }
 
 .btn-danger {
