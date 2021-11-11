@@ -28,7 +28,7 @@ export default function NavBar() {
           Registration
         </Link>
         <Link to='/enroll' className='btn btn-primary btn-primary--indigo navbar__btn'>
-          Enroll
+          Enrollment
         </Link>
       </div>
     </div>

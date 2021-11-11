@@ -7,7 +7,7 @@ import FormikComponent from './components/FormikComponent/FormikComponent';
 import FormikControls from './components/FormikControls/FormikControls';
 import LoginForm from './components/LoginForm/LoginForm';
 import RegisterForm from './components/RegisterForm/RegisterForm';
-import EnrollForm from './components/EnrollForm/EnrollForm';
+import EnrollmentForm from './components/EnrollmentForm/EnrollmentForm';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path='/formikcontrols' element={<FormikControls />} />
           <Route path='/login' element={<LoginForm />} />
           <Route path='/register' element={<RegisterForm />} />
-          <Route path='/enroll' element={<EnrollForm />} />
+          <Route path='/enroll' element={<EnrollmentForm />} />
         </Routes>
       </Router>
     </div>
