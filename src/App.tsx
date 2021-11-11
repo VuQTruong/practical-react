@@ -5,6 +5,9 @@ import PureForm from './components/PureForm/PureForm';
 import FormikHook from './components/FormikHook/FormikHook';
 import FormikComponent from './components/FormikComponent/FormikComponent';
 import FormikControls from './components/FormikControls/FormikControls';
+import LoginForm from './components/LoginForm/LoginForm';
+import RegisterForm from './components/RegisterForm/RegisterForm';
+import EnrollForm from './components/EnrollForm/EnrollForm';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path='/formikhook' element={<FormikHook />} />
           <Route path='/formikelement' element={<FormikComponent />} />
           <Route path='/formikcontrols' element={<FormikControls />} />
+          <Route path='/login' element={<LoginForm />} />
+          <Route path='/register' element={<RegisterForm />} />
+          <Route path='/enroll' element={<EnrollForm />} />
         </Routes>
       </Router>
     </div>

@@ -21,6 +21,15 @@ export default function NavBar() {
         <Link to='/formikcontrols' className='btn btn-primary btn-primary--red navbar__btn'>
           Reuseable Formik Controls
         </Link>
+        <Link to='/login' className='btn btn-primary btn-primary--black navbar__btn'>
+          Login
+        </Link>
+        <Link to='/register' className='btn btn-primary btn-primary--yellow navbar__btn'>
+          Registration
+        </Link>
+        <Link to='/enroll' className='btn btn-primary btn-primary--indigo navbar__btn'>
+          Enroll
+        </Link>
       </div>
     </div>
   );
