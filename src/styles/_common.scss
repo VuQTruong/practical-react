@@ -24,6 +24,18 @@
   margin-top: 1em;
 }
 
+.flex {
+  display: flex;
+
+  &.col {
+    flex-direction: column;
+  }
+
+  &.row {
+    flex-direction: row;
+  }
+}
+
 /* Buttons */
 .btn {
   display: inline-block;

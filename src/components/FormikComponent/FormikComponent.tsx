@@ -150,7 +150,7 @@ export default function FormikComponent() {
 
                 {/* Field Level Validation 
           
-              A use case for using Field Level Validation is when you want to render fields based on a JSON fetching from an API call */}
+                A use case for using Field Level Validation is when you want to render fields based on a JSON fetching from an API call */}
                 <h3 className='form__divider'>Field Level Validation</h3>
                 <div className='form__control'>
                   <label htmlFor='password'>Password</label>
@@ -177,8 +177,8 @@ export default function FormikComponent() {
 
                 {/* Another way to force Field Component to render other than input element is using a method called "Render Prop Pattern"
           
-              The advantage of this pattern is to allow us to use custom components */}
-                <h3 className='form__divider'>Render Prop Pattern</h3>
+                The advantage of this pattern is to allow us to use custom components */}
+                <h3 className='form__divider'>Render Prop Pattern - Not using Field</h3>
                 <div className='form__control'>
                   <label htmlFor='address'>Address</label>
                   <Field name='address'>

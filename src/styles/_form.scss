@@ -10,7 +10,10 @@
   input[type='text'],
   input[type='email'],
   input[type='password'],
-  textarea {
+  input[type='date'],
+  textarea,
+  select {
+    font-family: inherit;
     border: none;
     border-radius: 5px;
     padding: 0.5em 1em;
@@ -18,9 +21,19 @@
   }
 }
 
+.radio-option input,
+.cb-option input {
+  margin-right: 0.5em;
+}
+
 .form__error {
+  align-self: flex-start;
+  margin-top: 0.375em;
+  padding: 0.125em 0.5em;
   font-style: italic;
-  color: black;
+  border-radius: 5px;
+  background-color: $clr-danger;
+  color: white;
 }
 
 .form__divider {
