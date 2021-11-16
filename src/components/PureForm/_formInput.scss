@@ -1,0 +1,11 @@
+.form__control span {
+  display: none;
+}
+
+input:invalid[focused='true'] {
+  border: 2px solid $clr-danger;
+}
+
+input:invalid[focused='true'] ~ span {
+  display: block;
+}
